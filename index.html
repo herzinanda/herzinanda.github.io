@@ -1,249 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/fontawesome-free-5.15.3-web/css/all.css">
-
-    <title>Hello there</title>
-</head>
-
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand brand-logo" href="#">
-                <h4>HP</h4>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="#contact">Contact</a>
-                </div>
-                <div class="mode">
-                    <input type="checkbox" class="checkbox" id="chk" />
-                    <label class="label" for="chk">
-                        <i class="fas fa-moon"></i>
-                        <i class="fas fa-sun"></i>
-                        <div class="ball"></div>
-                    </label>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herzinanda Putra</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/997f4f284f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="container">
+    <header id="nav" class="">
+      <nav class="navbar">
+        <h1 class="brand-logo">HP</h1>
+        <ul>
+          <li class="navbar-list">About</li>
+          <li class="navbar-list">Experience</li>
+          <li class="navbar-list">Skills</li>
+          <li class="navbar-list">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="personal-information">
+        <div class="pi-text">
+          <h1>Hi, I'm Herzi👋</h1>
+          <p>
+            A third-year student majoring in Information Technology, Universitas
+            Sumatera Utara. Interested in Logical Programming and Web
+            Programming
+          </p>
+          <ul>
+            <li>
+              <a href="https://linkedin.com/in/herzinanda">Linkedin↗</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-    <!-- End navbar -->
-
-    <!-- Home section -->
-    <section id="home">
-        <div class="container">
-            <div class="row home align-items-center">
-                <div class="col-md-6">
-                    <h1 class="home-title mt-4">Hi,
-                        <br><span class="myTitle1">I'm Herzi</span>
-                        <p><span class="myTitle2">A student and Web Enthusiast</span></p>
-                    </h1>
-                    <a target="_blank"
-                        href="https://drive.google.com/file/d/174qbdKZR-5xIykxAFavAxMQkuf1SJX3A/view?usp=sharing"><button
-                            class="btn btn-dark  btn-contact" href="#">Download CV</button></a>
-                </div>
-                <div class="col-md-6 text-center img-box mx-auto rounded-circle mt-3">
-                    <img class="img-fluid mt-5 mx-auto brand-img" src="assets/img/Herzi.png" alt="Herzinanda Putra">
-                </div>
-            </div>
+        <div class="pi-img">
+          <img
+            width="400"
+            src="assets/images/herzinanda.jpg"
+            alt="Herzinanda Putra"
+            srcset=""
+          />
         </div>
-    </section>
-    <!-- End home section -->
-
-    <!-- About Section -->
-    <section id="about">
-        <h1 class="text-center about-title mt-5">About</h1>
-        <br>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-5 text-center">
-                    <img class="about-image img-fluid" src="assets/img/Herzi2.png" alt="Herzinanda Putra">
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/herzinanda"><i class="fab fa-instagram about-icons"></i></a>
-                        <a href="https://www.github.com/herzinanda"><i class="fab fa-github about-icons"></i></a>
-                        <a href="https://www.linkedin.com/in/herzinanda"><i
-                                class="fab fa-linkedin-in about-icons"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-7 about-text">I am a first-year student majoring in Information Technology, Sumatera
-                    Utara University. I am highly interest on web development especially web designer. Highly motivated
-                    to constantly
-                    develop my skills and grow
-                    professionally. I am confident in
-                    my ability to generate
-                    compelling ideas
-                </div>
-            </div>
-            <!-- Start Tabs -->
-            <div class="tabs">
-                <div class="tab-2">
-                    <label for="tab2-1">Skills</label>
-                    <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
-                    <div>
-                        <div class="row">
-                            <div class="skills tab-content">
-                                <div class="row text-center skill-items">
-                                    <div class="col-sm"><i class="fab fa-html5 html"></i>
-                                        <p class="skill-text">HTML5</p>
-                                    </div>
-                                    <div class="col-sm"><i class="fab fa-css3-alt css"></i>
-                                        <p class="skill-text">CSS3</p>
-                                    </div>
-                                    <div class="col-sm"><i class="fab fa-js js"></i>
-                                        <p class="skill-text">JavaScript</p>
-                                    </div>
-                                </div>
-                                <div class="row text-center skill-items">
-                                    <div class="col-sm"><i class="fab fa-php php"></i>
-                                        <p class="skill-text">PHP</p>
-                                    </div>
-                                    <div class="col-sm"><i class="fab fa-bootstrap bootstrap"></i>
-                                        <p class="skill-text">Bootstrap</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Educations section start -->
-                <div class="tab-2">
-                    <label for="tab2-2">Educations</label>
-                    <input id="tab2-2" name="tabs-two" type="radio">
-                    <div class="row">
-                        <div class="timeline">
-                            <div class="row">
-                                <div class="timeline-item">
-                                    <div class="timeline-item-inner">
-                                        <i class="fas fa-briefcase icon"></i>
-                                        <span>2020 - Present</span>
-                                        <h5>Teknologi Informasi</h5>
-                                        <h6>Fasilkom-TI USU</h6>
-                                    </div>
-                                    <div class="timeline-item-inner">
-                                        <i class="fas fa-briefcase icon"></i>
-                                        <span>2017 - 2020</span>
-                                        <h5>MAN 1 Medan</h5>
-                                    </div>
-                                    <div class="timeline-item-inner">
-                                        <i class="fas fa-briefcase icon"></i>
-                                        <span>2014 - 2017</span>
-                                        <h5>SMPN 3 Medan</h5>
-                                    </div>
-                                    <div class="timeline-item-inner">
-                                        <i class="fas fa-briefcase icon"></i>
-                                        <span>2008 - 2014</span>
-                                        <h5>SDN 060815</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Education section end -->
-            </div>
-            <!-- End tabs -->
-    </section>
-
-    <!-- End About Section -->
-    <!-- Start Contact Section -->
-    <section id="contact">
-        <h1 class="text-center contact-title mt-5">Contact</h1>
-        <div class="container text-center">
-            <div class="row text-center">
-                <div class="col-sm">
-                    <a class="contact-link" href="https://wa.me/6281377491600">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class="fab fa-whatsapp"></i>
-                                <p>+62 813 7749 1600</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm">
-                    <a class="contact-link" href="">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class="fas fa-envelope"></i>
-                                <p>herzinanda31@gmail.com</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm">
-                    <a class="contact-link" href="https://www.instagram.com/herzinanda">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class="fab fa-instagram card-instagram"></i>
-                                <p>herzinanda</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          A motivated third-year Information Technology student at Universitas
+          Sumatera Utara. Currently studying at Ruangguru CAMP majoring Frontend
+          Engineering by Independent Study Kampus Merdeka
+        </p>
+      </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-list">
+          <div class="experience-detail">
+            <p><b>Aug 2022 - Present</b></p>
+            <p><b>Independent Study at Ruangguru</b></p>
+            <p>Majoring Frontend Engineering Track</p>
+          </div>
+          <div class="experience-detail">
+            <p><b>Mar 2022 - Present</b></p>
+            <p><b>Laboratory Assistant</b></p>
+            <p>Teaching Basics Programming and Advanced Web Programming</p>
+          </div>
         </div>
-    </section>
-
-    <!-- End Contact Section -->
-
-    <!-- Start footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="brand-footer">
-                <h2>HP</h2>
-                <p>A student and web enthusiast</p>
-            </div>
-            <div class="row">
-                <div class="col-md-6 footer-list">
-                    <h5>Made With</h5>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Bootsrap 5</li>
-                    </ul>
-                </div>
-                <div class="col-md-6 footer-list">
-                    <h5>Follow</h5>
-                    <ul>
-                        <li>Instagram</li>
-                        <li>Github</li>
-                        <li>Linkedin</li>
-                    </ul>
-                </div>
-            </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div class="skills-detail">
+            <p><b>Coding Languanges</b></p>
+            <p>C/C++, PHP, JavaScript</p>
+          </div>
+          <div class="skills-detail">
+            <p><b>Framework and Systems</b></p>
+            <p>Laravel 9, Bootstrap 5</p>
+          </div>
         </div>
-        <div class="copyrights text-center">
-            <p>Made With <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/herzinanda">Herzinanda
-                    Putra</a>. &copy; 2021</p>
-        </div>
-    </div>
-    <!-- End Footer -->
-
-    <script>
-        const chk = document.getElementById('chk');
-
-        chk.addEventListener('change', () => {
-            document.body.classList.toggle('dark');
-        });
-    </script>
-
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-</body>
-
+      </section>
+      <section id="contact">
+        <h2>Contact Me!</h2>
+        <form action="">
+          <div class="form-contact form-contact-name">
+            <label for="form-name">Name</label>
+            <div>
+              <input
+                type="text"
+                name="form-name"
+                id="form-name"
+                placeholder="Your Name"
+              />
+            </div>
+          </div>
+          <div class="form-contact form-contact-email">
+            <label for="form-email">Email</label>
+            <div>
+              <input
+                type="email"
+                name="form-email"
+                id="form-email"
+                placeholder="Your email"
+              />
+            </div>
+          </div>
+          <div class="form-contact form-contact-messages">
+            <label for="form-message">Message</label>
+            <div>
+              <textarea name="messages" id="form-message" cols="30" rows="10">
+              </textarea>
+            </div>
+          </div>
+          <button type="submit" class="form-submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      &copy; 2022. Made with 💖 by
+      <a href="https://linkedin.com/in/herzinanda">Herzinanda Putra</a>.
+    </footer>
+  </body>
 </html>
