@@ -241,7 +241,7 @@ footer a:hover {
     }
     .navbar > ul > li {
         display: inline;
-        margin-left: 10px;
+        margin: 0 10px;
         text-decoration: none;
     }
 
@@ -294,6 +294,25 @@ footer a:hover {
     * {
         font-size: 14px;
     }
+
+    .navbar{
+        justify-content: center;
+        align-content: center;
+        padding: 10px 0;
+    }
+
+    .navbar > ul {
+        margin-top: 10px;
+    }
+    
+    .navbar > ul > li {
+        margin-left: 0 10 !important;
+    }
+    
+    .brand-logo {
+        font-size: 20px;
+    }
+
     .pi-text h1 {
         font-size: 28px;
         font-weight: 700;
